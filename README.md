@@ -78,4 +78,11 @@ Answers a question in strictly one word.
 4. **Start Server:**
    ```bash
    npm start
+
+
+5. **To Check is API is Working**
+    ```URL
+    https://bajaj-project-lemon.vercel.app/health
+    https://bajaj-project-lemon.vercel.app/bfhl   (and check the post requests accodingly for fibonacci , hcf , lcm , prime and AI ) by inserting the json body as given above)
    ```
+
