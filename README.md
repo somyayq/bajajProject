@@ -7,7 +7,7 @@ Built with Node.js, Express, and Google Gemini.
 
 ### Base URL
 - **Local:** `http://localhost:3000`
-- **Production:** `https://your-app-name.onrender.com`
+- **Production:** `https://your-app-name.vercel.app`
 
 ---
 
