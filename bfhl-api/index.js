@@ -68,7 +68,7 @@ app.post('/bfhl', async (req, res) => {
                 if (typeof value !== 'string') throw new Error("Input must be a question string");
                 if (!process.env.GEMINI_API_KEY) throw new Error("Gemini API Key is not configured on the server");
 
-                const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+                const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
                 const prompt = `Answer the following question in strictly one single word: ${value}`;
                 try {
                     const result = await model.generateContent(prompt);
